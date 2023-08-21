@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Imperial+Script&family=Poppins:wght@400;600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container_certificate {
+    height: 100vh;
+    overflow: hidden;
+    z-index: 10;
+    position: relative;
+    border: 1px solid black;
+    padding: 2rem;
+    display: flex;
+}
+
+.certificate {
+    z-index: 10;
+    width: 100%;
+    border: 8px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.certificate p {
+    font-family: "Poppins", sans-serif;
+}
+
+.certificate h1 {
+    font-family: "Imperial Script", cursive;
+    font-size: 90px;
+    font-weight: normal;
+}
+.certificate .name {
+    font-family: "Poppins", sans-serif;
+    font-size: 34;
+    font-weight: bolder;
+}
+
+.type_certification {
+    font-family: "Poppins", sans-serif;
+    font-size: 38px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1;
+}
+
+.logo h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 140px;
+}
+
+.divider {
+    width: 5px;
+    height: 65%;
+    background-color: black;
+}
+
+.left-top {
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: #697899;
+    width: 300px;
+    height: 300px;
+    transform: rotate(45deg);
+    margin-top: -190px;
+    margin-left: -190px;
+}
+
+.right-top {
+    top: 0;
+    right: 0;
+    position: absolute;
+    background-color: #697899;
+    width: 300px;
+    height: 300px;
+    transform: rotate(45deg);
+    margin-top: -190px;
+    margin-right: -190px;
+}
+
+.left-bottom {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    background-color: #697899;
+    width: 300px;
+    height: 300px;
+    transform: rotate(-50deg);
+    margin-bottom: -170px;
+    margin-left: -190px;
+}
+
+.right-bottom {
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    background-color: #697899;
+    width: 300px;
+    height: 300px;
+    transform: rotate(50deg);
+    margin-bottom: -170px;
+    margin-right: -190px;
+}
