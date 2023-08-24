@@ -10,7 +10,7 @@
 
     <div class="flex flex-col justify-center w-1/2 px-40">
         <div class="mb-24">
-            <h1 class="text-5xl font-extrabold" style="color:#445069;">Sign In to </h1>
+            <h1 class="text-5xl font-extrabold" style="color:#445069;">Login</h1>
             <h1 class="text-5xl font-extrabold" style="color:#445069;">Frame<span style="color:#F6B21B;">Acade</span>
             </h1>
         </div>
